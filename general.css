@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    /*avoid by default margins*/
+    font-family: 'Amazon Ember V2', sans-serif;
+        box-sizing: border-box;
+    /*border"s area gets counted in the elements height and width*/ 
+}
+

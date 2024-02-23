@@ -1,0 +1,181 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+
+/*logo*/
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+   /* better than inserting image in a div
+    put image as the background of a div
+    */
+    background-image: url("amazon_logo.png");
+    height:60px;
+    width:100px;
+    background-size: cover;
+}
+
+/*deliver*/
+.nav-address{
+    margin-left: 5px;
+    height:50px;
+    width:120px;
+}
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    /*rem means root-em, i.e, elements size relative to root element.
+    by default font size value of root fonts in html is 16px, so 1 rem = 16px, 2rem = 2*18px
+    1.5rem=1.5*16px */
+    /*rem makes font more responsive*/
+    margin-left:15px;
+
+ 
+}
+
+.add-sec{
+    font-size:1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/*search-section*/
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+}
+
+.search-input{
+    height: 40px;
+    width:100%;
+    font-size: 1rem;
+    border:none;
+    /*All the empty space left after styling select-div and
+    search-icon, will be assigned to the search input, if we 
+    use 100% width (works for elements within flexbox)*/
+}
+
+.search-icon{
+    width:45px;
+    height:40px;
+    display:flex;
+    justify-content: center;/*horizontally center*/
+    align-items: center;/*vertically center*/
+    font-size:1.2rem;
+    background-color: #febd68;
+    border-radius: 0px 4px 4px 0px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+
+
+/*flag*/
+.nav-flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.flag-img{
+    margin-top: 8px;
+    height:23px;
+    width:25px;
+    
+}
+
+/*hello,sign-in*/
+/*returns*/
+
+.nav-signin{
+    padding-left: 5px;
+    height: 50px;
+    width: 160px;
+}
+
+.nav-return{
+    padding-left: 5px;
+
+    height: 50px;
+    width: 100px;
+
+}
+span{
+    font-size: 0.7rem;
+    
+}
+
+.nav-second{
+    font-weight:500;
+    font-size: 0.85rem;
+}
+
+
+.nav-return , .nav-signin p{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*carts*/
+.nav-cart i{
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.nav-cart{
+    height: 50px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
